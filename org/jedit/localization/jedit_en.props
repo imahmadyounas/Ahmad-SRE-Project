@@ -409,6 +409,7 @@ about.label=$About jEdit...
 help.label=jEdit $Help
 tip-of-the-day.label=$Tip of the Day
 userFeedback.label=Make a suggestion...
+submit-bug.label=Submit Bug
 #}}}
 
 #}}}

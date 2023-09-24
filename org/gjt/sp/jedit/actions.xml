@@ -467,6 +467,15 @@
 		new HelpViewer();
 	</CODE>
 </ACTION>
+	<ACTION NAME="submit-bug">
+		<CODE>
+			// Implement the action to open the bug tracker URL in a web browser
+			import java.awt.Desktop;
+			import java.net.URI;
+			Desktop.getDesktop().browse(new URI("https://sourceforge.net/p/jedit/bugs/"));
+
+		</CODE>
+	</ACTION>
 <ACTION NAME="smart-home" NO_RECORD="TRUE">
 	<CODE>
 		textArea.smartHome(false);
